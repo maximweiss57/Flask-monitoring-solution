@@ -20,7 +20,7 @@ If you have the need to monitor other paramerters:
        <h2><parameter name></h2>
        <p>{{ variable name }} MB</p>
    </div>
-    ```
+   ```
 
 2. add a function to the app.py file
 3. add it to the infinite loop in the app.py file
@@ -28,7 +28,9 @@ If you have the need to monitor other paramerters:
 4. pass the variable to the output.html file through the render_template function
 
 To run the app, run the following commands in the terminal:
-
+```
 $ pip install -r requirements.txt
-
+```
+```
 $ python3 app.py
+```
