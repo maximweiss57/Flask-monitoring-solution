@@ -14,10 +14,10 @@ Remember that this will work only in your LAN
 
 If you have the need to monitor other paramerters:
 1. add needed fields to the output.html file
-    <div class="parameter">
+    <!-- <div class="parameter">
         <h2><parameter name>></h2>
         <p>{{ variable name }} MB</p>
-    </div>
+    </div> -->
 2. add a function to the app.py file
 3. add it to the infinite loop in the app.py file
     variable name = function()
